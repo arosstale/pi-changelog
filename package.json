@@ -1,0 +1,10 @@
+{
+  "name": "@artale/pi-changelog",
+  "version": "1.0.0",
+  "description": "Auto-generate changelogs from git history.",
+  "keywords": ["pi-package", "pi-extension", "changelog"],
+  "license": "MIT",
+  "author": "artale",
+  "repository": { "type": "git", "url": "https://github.com/arosstale/pi-changelog.git" },
+  "extensions": ["extensions/pi-changelog.ts"]
+}
