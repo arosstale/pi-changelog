@@ -1,6 +1,6 @@
 {
   "name": "@artale/pi-changelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto-generate changelogs from git history.",
   "keywords": [
     "pi-package",
