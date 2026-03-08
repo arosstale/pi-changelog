@@ -141,7 +141,7 @@ function formatMarkdown(commits: Commit[], range: string, repoUrl: string): stri
 export default function piChangelog(pi: ExtensionAPI) {
   pi.registerCommand("changelog", {
     description: "Auto-generate changelog from git. /changelog [range] [--write]",
-    execute: async (ctx, args) => {
+    handler: async (args, ctx) => {
       const parts = args.trim().split(/\s+/);
       const doWrite = parts.includes("--write") || parts.includes("-w");
       const rangeArg = parts.find(p => !p.startsWith("-"));

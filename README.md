@@ -1,9 +1,8 @@
-# pi-changelog
+# @artale/pi-changelog
 
 Auto-generate changelogs from git history.
 
 ## Install
-
 ```bash
-npm i -g @artale/pi-changelog
+npm install -g @artale/pi-changelog
 ```
