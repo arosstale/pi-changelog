@@ -139,8 +139,8 @@ function formatMarkdown(commits: Commit[], range: string, repoUrl: string): stri
 }
 
 export default function piChangelog(pi: ExtensionAPI) {
-  pi.registerCommand("changelog", {
-    description: "Auto-generate changelog from git. /changelog [range] [--write]",
+  pi.registerCommand("changes", {
+    description: "Auto-generate changelog from git. /changes [range] [--write]",
     handler: async (args, ctx) => {
       const parts = args.trim().split(/\s+/);
       const doWrite = parts.includes("--write") || parts.includes("-w");
